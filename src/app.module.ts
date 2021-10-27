@@ -20,6 +20,7 @@ import {Sales} from "./entity/sales";
 
 @Module({
   imports: [
+    /*
       TypeOrmCoreModule.forRoot({
           "type": "mysql",
           "host": "localhost",
@@ -41,10 +42,11 @@ import {Sales} from "./entity/sales";
             Sales],
           "synchronize": true
       }),
-      TypeUSerModule,
-      ProductModule,
-      RoomModule,
-      ClientModule
+      */
+      //TypeUSerModule,
+      //ProductModule,
+      //RoomModule,
+      //ClientModule
   ],
   controllers: [AppController],
   providers: [AppService],

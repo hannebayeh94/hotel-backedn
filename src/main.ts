@@ -7,7 +7,6 @@ import * as dotev from 'dotenv';
 const bootstrap = async () => {
 
   dotev.config();
-
   const options = {
     "origin": "*",
     "methods": "GET,HEAD,PUT,PATCH,POST,DELETE",
@@ -15,7 +14,7 @@ const bootstrap = async () => {
     "optionsSuccessStatus": 204,
     "credentials":true
   }
-
+  
   const app = await NestFactory.create(AppModule);
   app.enableCors(options);
   app.useGlobalPipes(new ValidationPipe());

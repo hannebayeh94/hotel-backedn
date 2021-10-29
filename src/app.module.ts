@@ -22,11 +22,11 @@ import {Sales} from "./entity/sales";
   imports: [
       TypeOrmCoreModule.forRoot({
           "type": "mysql",
-          "host": "ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
+          "host": "hwr4wkxs079mtb19.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
           "port": 3306,
-          "username": "yglfzta4vj1qoem7",
-          "password": "z6tsurtq975d46ck",
-          "database": "sbv6cbg6tq4akv60",
+          "username": "nb5crkn87it5v9jv",
+          "password": "vsqdge05rnz6ctof",
+          "database": "s362y9k12dz0k8pt",
           "entities": [
             TypeUser,
             User,

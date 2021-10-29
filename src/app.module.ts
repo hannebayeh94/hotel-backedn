@@ -20,14 +20,13 @@ import {Sales} from "./entity/sales";
 
 @Module({
   imports: [
-    /*
       TypeOrmCoreModule.forRoot({
           "type": "mysql",
-          "host": "localhost",
+          "host": "ckshdphy86qnz0bj.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
           "port": 3306,
-          "username": "root",
-          "password": "",
-          "database": "hotel",
+          "username": "yglfzta4vj1qoem7",
+          "password": "z6tsurtq975d46ck",
+          "database": "sbv6cbg6tq4akv60",
           "entities": [
             TypeUser,
             User,
@@ -42,11 +41,10 @@ import {Sales} from "./entity/sales";
             Sales],
           "synchronize": true
       }),
-      */
-      //TypeUSerModule,
-      //ProductModule,
-      //RoomModule,
-      //ClientModule
+      TypeUSerModule,
+      ProductModule,
+      RoomModule,
+      ClientModule
   ],
   controllers: [AppController],
   providers: [AppService],

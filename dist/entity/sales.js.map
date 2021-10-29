@@ -1,0 +1,1 @@
+{"version":3,"file":"sales.js","sourceRoot":"","sources":["../../src/entity/sales.ts"],"names":[],"mappings":";;;;;;;;;;;;AAAA,yCAAqE;AAIrE,IAAa,KAAK,GAAlB,MAAa,KAAK;CAMjB,CAAA;AAL6B;IAAzB,8BAAsB,EAAE;;iCAAY;AAC3B;IAAT,cAAM,EAAE;;yCAAoB;AACnB;IAAT,cAAM,EAAE;;uCAAkB;AACjB;IAAT,cAAM,EAAE;;wCAAmB;AAClB;IAAT,cAAM,EAAE;;mCAAc;AALd,KAAK;IADjB,cAAM,EAAE;GACI,KAAK,CAMjB;AANY,sBAAK"}
